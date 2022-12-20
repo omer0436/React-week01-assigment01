@@ -5,7 +5,7 @@ const myfunction = () => {
   <div id="footer" ></div> `;
 };
 myfunction();
-
+//navbar start
 const renderNav = () => {
   const container1 = document.getElementById("navbar");
   container1.innerHTML = `
@@ -49,7 +49,9 @@ const renderNav = () => {
   // code to render the navigation bar goes here
 };
 renderNav();
+//navbar finish
 
+//content start
 const renderContent = () => {
   const container2 = document.getElementById("content");
   container2.innerHTML = ` <div class="container-fluid text-lg-start">
@@ -67,7 +69,9 @@ const renderContent = () => {
   // code to render the main content goes here
 };
 renderContent();
+// content end
 
+//footer start
 const renderFooter = () => {
   const container3 = document.getElementById("footer");
   container3.innerHTML = ` <footer class="bg-dark text-white rgb(33,37,41) m-lg-3 p-2 ">
@@ -81,10 +85,10 @@ const renderFooter = () => {
         <a href="#" class="text-secondary text-decoration-none">FAQs</a>
         <a href="#" class="text-secondary text-decoration-none">About</a>
       </div>
-      </div>
+    </div>
 </footer>   `;
   // code to render the footer goes here
 };
 renderFooter();
-
+//footer finish
 export { renderNav, renderContent, renderFooter, myfunction };
