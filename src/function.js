@@ -74,11 +74,11 @@ renderContent();
 //footer start
 const renderFooter = () => {
   const container3 = document.getElementById("footer");
-  container3.innerHTML = ` <footer class="bg-dark text-white rgb(33,37,41) m-lg-3 p-2 ">
+  container3.innerHTML = ` <footer class="bg-dark text-white rgb(33,37,41) m-lg-3 p-3 ">
   <div class="container-fluid">
     <div class="row text-capitalize">
-      <div class="col-6 mt-3">&copy; 2002 Company, Inc.</div>
-      <div class="col-6 text-end mt-3 ">
+      <div class="col-6 ">&copy; 2002 Company, Inc.</div>
+      <div class="col-6 text-end  ">
         <a href="#" class="text-secondary text-decoration-none">Home</a>
         <a href="#" class="text-secondary text-decoration-none">Features</a>
         <a href="#" class="text-secondary text-decoration-none">Pricing</a>
